@@ -30,7 +30,7 @@ textarea{
 
 #chat_form{
   width: 500px;
-  background-color: #3D9AD1;
+  background-image: linear-gradient(skyblue,  #3D9AD1);
 }
 
 #chat_title{
@@ -41,10 +41,10 @@ textarea{
   text-shadow: 1px 1px 1px #000;
 }
 
-#auth{
+#auth {
   align-items: center;
   width: 190px;
-  background-color: #3D9AD1 ;
+  background-image: linear-gradient(skyblue, #3D9AD1);
 }
 
 .textbox_auth{
