@@ -1,0 +1,52 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: #5284f4;
+}
+
+#title_index {
+  margin: 0px;
+  margin-bottom: 10px;
+  background-image: linear-gradient(skyblue, #ffff00);
+  text-shadow: 1px 1px 1px #000;
+}
+
+textarea{
+  box-shadow: inset 0px 0px 8px rgba(0,0,0,0.5);
+  width: 482px;
+  height: 200px; /* Высота поля в пикселах */
+  resize: none; /* Запрещаем изменять размер */
+  margin: 5px;
+}
+
+#message_textbox{
+  box-shadow: inset 0px 0px 8px rgba(0,0,0,0.2);
+  margin: 5px;
+  margin-top: 0px;
+  width: 395px; /* Ширина поля в процентах */
+}
+
+#chat_form{
+  width: 500px;
+  background-color: #3D9AD1;
+}
+
+#chat_title{
+  color: #3D9AD1;
+  width: 500px;
+  height: 20px;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px 1px #000;
+}
+
+#auth{
+  align-items: center;
+  width: 190px;
+  background-color: #3D9AD1 ;
+}
+
+.textbox_auth{
+  box-shadow: inset 0px 0px 8px rgba(0,0,0,0.2);
+}
