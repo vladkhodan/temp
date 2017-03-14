@@ -7,30 +7,61 @@ h1 {
 }
 
 #title_index {
+  color: #3D9AD1;
   margin: 0px;
   margin-bottom: 10px;
   background-image: linear-gradient(skyblue, #ffff00);
   text-shadow: 1px 1px 1px #000;
 }
 
-textarea{
+#chat_textarea_message{
   box-shadow: inset 0px 0px 8px rgba(0,0,0,0.5);
-  width: 482px;
+  width: 400px;
   height: 200px; /* Высота поля в пикселах */
   resize: none; /* Запрещаем изменять размер */
   margin: 5px;
+}
+
+#chat_textarea_users{
+  box-shadow: inset 0px 0px 8px rgba(0,0,0,0.5);
+  width: 160px;
+  height: 200px; /* Высота поля в пикселах */
+  resize: none; /* Запрещаем изменять размер */
+  margin: 5px;
+}
+
+#chat_submit{
+  margin-left: 6px;
+  width: 107px;
 }
 
 #message_textbox{
   box-shadow: inset 0px 0px 8px rgba(0,0,0,0.2);
   margin: 5px;
   margin-top: 0px;
-  width: 395px; /* Ширина поля в процентах */
+  width: 402px; /* Ширина поля в процентах */
 }
 
 #chat_form{
-  width: 500px;
+  width: 600px;
   background-image: linear-gradient(skyblue,  #3D9AD1);
+}
+
+.chat_labels{
+  color: #3D9AD1;
+}
+
+#chat_label_messagebox{
+  float: left;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+#chat_label_users{
+  margin-top: 5px;
+  margin-right: 37px;
+  float: right;
+
 }
 
 #chat_title{
@@ -38,7 +69,7 @@ textarea{
   width: 500px;
   height: 20px;
   font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 0.2px 0.2px 0.2px #000;
 }
 
 #auth {

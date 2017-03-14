@@ -8,13 +8,16 @@
     <link href="/stylesheets/style.css" rel="stylesheet">
     <title>Чат</title>
 </head>
-<body>
+<body id="chat_body">
 <a href="authoriz"><----</a>
-<p id="chat_title">Hello, name.</p>
+<p id="chat_title">Hello, User.</p>
 <form id="chat_form">
-<textarea maxlength="1200" readonly></textarea><br>
-<input type="text" id="message_textbox" name="chat_message" placeholder="Сообщение...">
-<input type="submit" value="Отправить">
+    <a id="chat_label_messagebox" class="chat_labels">Сообщения:</a>
+    <a id="chat_label_users" class="chat_labels">Пользователи в чате:</a>
+<textarea maxlength="1200" id="chat_textarea_message" readonly></textarea>
+<textarea maxlength="1200" id="chat_textarea_users" readonly></textarea><br>
+<input type="text" align="center" id="message_textbox" name="chat_message" placeholder="Сообщение...">
+<input type="submit" id="chat_submit" name="submit_button" value="Отправить">
 </form>
 </body>
 </html>

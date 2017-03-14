@@ -22,12 +22,28 @@ router.get('/', function(req, res, next) {
     var user = new modelUser({
         name:"Tom",
         login:"12345"
-    })
+    });
 
-    user.save(user).then(data=>console.log(data))
+    user.save(user).then(data=>console.log(data));
 
     res.render('authoriz', { title: 'Sigin' });
 });
 
+// router.post("/form", function(req,res){
+//    var username = req.body.login;
+//    var password = req.body.password;
+//    res.send("The Username and password:" + username+" "+password);
+//
+// });
+
+router.post('/authoriz', function (req, res) {
+
+    const formData = req.body.formData;
+
+    fetch('.form', {
+        method: 'POST',
+        body: new FormData(form)
+})
+});
 
 module.exports = router;

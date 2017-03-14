@@ -37,6 +37,8 @@ app.use(function(req, res, next) {
 });
 
 
+
+
 mongoose.Promise = Promise;
 var db = mongoose.connect('mongodb://127.0.0.1:27017/temp');
 
